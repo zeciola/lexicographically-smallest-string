@@ -15,7 +15,7 @@ setup:
 
 create-venv: .create-venv setup
 
-run-tests:
+tests:
 	pytest . -v
 
 format:
