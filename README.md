@@ -1,9 +1,9 @@
 # lexicographically-smallest-string
 IBM Hackerrank - Lexicographically Smallest String
 
-**Given a string `s` that consists of lowercase English letters, select exactly one non-empty substring of `s` and replace each character of it with the previous character of the English alphabet. For example, `b` is converted to `a`, `c` is converted to `b`, and `a` is converted to `z`.**
+## **Given a string `s` that consists of lowercase English letters, select exactly one non-empty substring of `s` and replace each character of it with the previous character of the English alphabet. For example, `b` is converted to `a`, `c` is converted to `b`, and `a` is converted to `z`.**
 
-**Find the lexicographically smallest string that can be obtained after performing the above operation exactly once.**
+## **Find the lexicographically smallest string that can be obtained after performing the above operation exactly once.**
 
 ### **Example**
 ```python
@@ -16,11 +16,11 @@ s = "hackerrank"
 | ha     | gzckerrank   |
 | err    | hackdqqlank  |
 
-**Select and change only the first character. Return `"gackerrank"`, the lexicographically smallest string possible.**
+## **Select and change only the first character. Return `"gackerrank"`, the lexicographically smallest string possible.**
 
 ---
 
-**Function Description**
+### **Function Description**
 
 Complete the function `getSmallestString` in the editor below.
 
@@ -28,10 +28,24 @@ Complete the function `getSmallestString` in the editor below.
 
 - `s`: a string
 
-**Return**
+### **Return**
 
 - `string`: the lexicographically smallest string possible
 
-**Constraints**
+### **Constraints**
 
-- \( 1 \leq |s| \leq 10^5 \)
+- 1 ≤ |s| ≤ 10^5
+
+### **Run code**
+- **Run tests**
+```bash
+make tests
+```
+- **Format code**
+```bash
+make format
+```
+- **Check code**
+```bash
+make check
+```
