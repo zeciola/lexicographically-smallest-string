@@ -23,3 +23,7 @@ format:
 
 check:
 	ruff check . -v
+
+build-run-tests:
+	docker build -t lexicographically-smallest-string .
+	docker run --rm lexicographically-smallest-string

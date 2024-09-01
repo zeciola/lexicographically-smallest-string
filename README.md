@@ -37,6 +37,10 @@ Complete the function `getSmallestString` in the editor below.
 - 1 ≤ |s| ≤ 10^5
 
 ### **Run code**
+- **Run create virtual enviroment**
+```bash
+make create-env
+```
 - **Run tests**
 ```bash
 make tests
